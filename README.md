@@ -33,7 +33,7 @@ Pequeña app web para ingresar una lista de nombres, sortear un ganador al azar 
 5. Da click en el botón *Jugar de nuevo* para reiniciar el juego
 
 <div align="center">
-       <img src="[URL_DE_LA_IMAGEN](https://github.com/marirois/challenge-amigo-secreto-esp-main/blob/8bc5e7794cfd64d7fbd43bcbba65b84d5140b25f/assets/grabacion-amigo-secreto.gif)" alt="animación de uso del juego">
+       <img src="(https://github.com/marirois/challenge-amigo-secreto-esp-main/blob/8bc5e7794cfd64d7fbd43bcbba65b84d5140b25f/assets/grabacion-amigo-secreto.gif)" alt="animación de uso del juego">
 </div>
 
 ## TECNOLOGÍAS UTILIZADAS
@@ -50,3 +50,5 @@ Pequeña app web para ingresar una lista de nombres, sortear un ganador al azar 
 * El sorteo se basa en Math.floor(Math.random() * amigos.length);
 * Se controla el estado de los botones según la etapa del juego.
 * Se validan entradas.
+
+Versión 1.0
