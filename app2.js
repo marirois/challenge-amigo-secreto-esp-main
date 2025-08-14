@@ -1,6 +1,10 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-
-//Nota del creador: Este código se escribió conforme a las especificaciones del Challenge Amigo Secreto, implementando la creación de listas, iteración del ciclo for y arreglos.
+/*
+El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+*
+- Nota del creador: Este código se escribió conforme a las especificaciones del Challenge Amigo Secreto, 
+con la excepción que no se utilizó el ciclo for para mostrar la lista de nombres ingresados. Fuera de eso, 
+se implementaron todas las especificaciones restantes.
+*/
 
 //Declaración de variables
 let amigos = [];
@@ -25,30 +29,25 @@ function agregarAmigo() {
 
     if(nombre == ""){
         alert("Ingresa un nombre válido");
-        document.getElementById('amigo').focus();
     }else{
         amigos.push(nombre);
-        recorrerArreglo();
+        actualizarLista();
         document.getElementById('amigo').value = "";
         document.getElementById('amigo').focus();
-
     }
 }
 
 // Función para agregar cada nombre ingresado en el input en el array amigos
-function recorrerArreglo(){
+function actualizarLista(){
     
-    listaPadre.innerHTML = "";
+    nuevoElemento = document.createElement('li');
+    nuevoElemento.textContent = document.getElementById('amigo').value;
+
+    // console.log(amigos);
+    // console.log(amigos.length);
     
-    for (i=0; i<amigos.length; i++){
-        nuevoElemento = document.createElement('li');
-        nuevoElemento.textContent = amigos[i];
-    
-        listaPadre = document.getElementById('listaAmigos');
-        listaPadre.appendChild(nuevoElemento);    
-    }
-    console.log(amigos);
-    console.log(amigos.length);
+    listaPadre = document.getElementById('listaAmigos');
+    listaPadre.appendChild(nuevoElemento);
 }
 
 function sortearAmigo() {
@@ -63,7 +62,7 @@ function sortearAmigo() {
         listaResultado = document.getElementById('resultado');
         listaResultado.appendChild(amigoSecreto);
 
-        console.log(`Amigo Sorteado: ${sorteo}`);
+        console.log(`Amigo sorteado: ${sorteo}`);
     }
 
     amigos.length = 0;
