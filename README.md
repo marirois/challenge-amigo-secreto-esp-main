@@ -60,6 +60,6 @@ Pequeña app web para ingresar una lista de nombres, sortear un ganador al azar 
 
 Versión 1.0
 
-  ## AVISO DICIONAL
+  ## :warning: AVISO DICIONAL
 Se creó también un archivo app2.js como versión alternativa de la lógica. En esta variante **no se utiliza un ciclo** ``for`` para recorrer el arreglo, sino que se implementa la función ``actualizarLista()``, la cual crea elementos ``<li>`` cada vez que se ejecuta la función ``agregarAmigo()`` sin eliminar la lista existente. De esta forma, simplemente se agregan los nombres en la misma lista en pantalla.
 **IMPORTANTE**: Esta variante ofrece otra manera de gestionar la lista de nombres y no afecta el correcto funcionamiento del juego. 
