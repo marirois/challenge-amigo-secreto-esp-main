@@ -2,7 +2,7 @@
        <img src="https://github.com/marirois/challenge-amigo-secreto-esp-main/blob/b9644564a842b0cb3c27ca7e107942339d988c24/assets/portada.png" alt="Portada del juego">
 </div>
 
-# Challenge Amigo Secreto
+# CHALLENGE AMIGO SECRETO
 
 :arrow_forward: :nut_and_bolt: Proyecto en construcción :nut_and_bolt:
 
