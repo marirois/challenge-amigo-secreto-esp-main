@@ -1,5 +1,7 @@
 # Challenge Amigo Secreto
 
+:construction: Proyecto en construcción :construction:
+
 Pequeña app web para ingresar una lista de nombres, sortear un ganador al azar y reiniciar el juego cuando quieras
 
 
@@ -21,3 +23,25 @@ Pequeña app web para ingresar una lista de nombres, sortear un ganador al azar 
 * recorrerArreglo() - Limpia la lista previa y crea elementos ``<li>`` por cada nombre creando una nueva lista
 * sortearAmigo() - Realiza validación, sortea un nombre con ``Math.floor(Math.random())``, limpia datos y ajusta botones
 * reiniciarJuego() - Restaura el estado inicial de la aplicación y botones.
+
+## CÓMO USARLO
+1. Clona el repositorio 
+    ``git clone https://github.com/marirois/challenge-amigo-secreto-esp-main``
+2. Abre el ``index.html`` en tu navegador
+3. Agrega nombres en la caja de texto uno por uno y presiona *Agregar*
+4. Ya que hayas agregado todos los nombres da click en el botón *Sortear amigo* para elegir el ganador
+5. Da click en el botón *Jugar de nuevo* para reiniciar el juego
+
+## TECNOLOGÍAS UTILIZADAS
+* HTML5 - Estructura
+* CSS3 - Estilos
+* JavaScript - Lógica y manipulación del DOM
+
+Versión 1.0
+
+## DESARROLLADORES
+* Mariana Rodríguez
+  * ^[Linkedin](https://www.linkedin.com/in/mariana-rodr%C3%ADguez-b19b0048/)
+  * [GitHub](https://github.com/marirois)
+
+## ESTADO DEL PROYECTO
