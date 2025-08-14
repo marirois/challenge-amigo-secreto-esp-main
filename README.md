@@ -41,7 +41,7 @@ Versión 1.0
 
 ## DESARROLLADORES
 * Mariana Rodríguez
-  * ^[Linkedin](https://www.linkedin.com/in/mariana-rodr%C3%ADguez-b19b0048/)
+  * [Linkedin](https://www.linkedin.com/in/mariana-rodr%C3%ADguez-b19b0048/)
   * [GitHub](https://github.com/marirois)
 
 ## ESTADO DEL PROYECTO
