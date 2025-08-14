@@ -32,6 +32,8 @@ Pequeña app web para ingresar una lista de nombres, sortear un ganador al azar 
 4. Ya que hayas agregado todos los nombres da click en el botón *Sortear amigo* para elegir el ganador
 5. Da click en el botón *Jugar de nuevo* para reiniciar el juego
 
+![animación de uso del juego](https://github.com/marirois/challenge-amigo-secreto-esp-main/blob/8bc5e7794cfd64d7fbd43bcbba65b84d5140b25f/assets/grabacion-amigo-secreto.gif)
+
 ## TECNOLOGÍAS UTILIZADAS
 * HTML5 - Estructura
 * CSS3 - Estilos
