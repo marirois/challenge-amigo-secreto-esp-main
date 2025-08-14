@@ -1,14 +1,21 @@
+<div align="center">
+       <img src="https://github.com/marirois/challenge-amigo-secreto-esp-main/blob/b9644564a842b0cb3c27ca7e107942339d988c24/assets/portada.png" alt="Portada del juego">
+</div>
+
 # Challenge Amigo Secreto
 
-:construction: Proyecto en construcción :construction:
+:arrow_backward: :nut_and_bolt: Proyecto en construcción :nut_and_bolt:
 
-Pequeña app web para ingresar una lista de nombres, sortear un ganador al azar y reiniciar el juego cuando quieras
+Pequeña app web para ingresar una lista de nombres, sortear un ganador al azar y reiniciar el juego cuando quieras.
 
-
-## Descripción
+## DESCRIPCIÓN
 **Challenge Amigo Secreto** es un proyecto web en el que el usuario ingresa nombres mediante un campo de texto. Cada nombre se muestra en una lista y se guarda en un arreglo. Se sortea un ganador al azar y finalmente se reinicia el juego.
 
-## Funcionalidades 
+<div align="center">
+       <img src="https://github.com/marirois/challenge-amigo-secreto-esp-main/blob/b9644564a842b0cb3c27ca7e107942339d988c24/assets/pantalla-principal.png" alt="Página principal">
+</div>
+
+## FUNCIONALIDADES 
 * Ingresar nombres a través de un imput y mostrarlos en una lista
 * Validar si la caja de texto no está vacía
 * Guardar los nombres en un arreglo en memoria
@@ -33,7 +40,7 @@ Pequeña app web para ingresar una lista de nombres, sortear un ganador al azar 
 5. Da click en el botón *Jugar de nuevo* para reiniciar el juego
 
 <div align="center">
-       <img src="https://github.com/marirois/challenge-amigo-secreto-esp-main/blob/8bc5e7794cfd64d7fbd43bcbba65b84d5140b25f/assets/grabacion-amigo-secreto.gif" alt="animación de uso del juego">
+       <img src="https://github.com/marirois/challenge-amigo-secreto-esp-main/blob/8bc5e7794cfd64d7fbd43bcbba65b84d5140b25f/assets/grabacion-amigo-secreto.gif" alt="Animación de uso del juego">
 </div>
 
 ## TECNOLOGÍAS UTILIZADAS
