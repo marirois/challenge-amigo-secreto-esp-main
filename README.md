@@ -37,11 +37,14 @@ Pequeña app web para ingresar una lista de nombres, sortear un ganador al azar 
 * CSS3 - Estilos
 * JavaScript - Lógica y manipulación del DOM
 
-Versión 1.0
-
 ## DESARROLLADORES
 * Mariana Rodríguez
   * [Linkedin](https://www.linkedin.com/in/mariana-rodr%C3%ADguez-b19b0048/)
   * [GitHub](https://github.com/marirois)
 
-## ESTADO DEL PROYECTO
+## NOTAS TECNICAS
+* El sorteo se basa en Math.floor(Math.random() * amigos.length);
+* Se controla el estado de los botones según la etapa del juego.
+* Se validan entradas.
+
+Versión 1.0
